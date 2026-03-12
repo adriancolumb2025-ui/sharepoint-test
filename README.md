@@ -18,3 +18,8 @@ Technologies:
 Status:
 
 Initial developer exploration project.
+## Files
+
+- `README.md` - project overview
+- `graph-test.js` - simple JavaScript Graph test placeholder
+- `index.html` - basic front-end page for testing Graph integration

@@ -1,6 +1,20 @@
-# sharepoint-test
-Testing Microsoft Graph and SharePoint development
-Learning Microsoft Graph and SharePoint development.
+# SharePoint + Microsoft Graph Test
 
-Goal:
-Experiment with SharePoint APIs and Microsoft 365 automation.
+This repository is a simple developer experiment using Microsoft Graph and SharePoint.
+
+Goals:
+
+- Learn Microsoft Graph API
+- Test SharePoint integration
+- Build small proof-of-concept apps using Microsoft 365 data
+
+Technologies:
+
+- Microsoft Graph
+- JavaScript
+- Microsoft 365
+- SharePoint
+
+Status:
+
+Initial developer exploration project.

@@ -23,3 +23,14 @@ Initial developer exploration project.
 - `README.md` - project overview
 - `graph-test.js` - simple JavaScript Graph test placeholder
 - `index.html` - basic front-end page for testing Graph integration
+
+## Current Demo State
+
+This project now includes a basic Microsoft Graph API request to `v1.0/me`.
+
+A valid Microsoft Graph access token is still required for the request to succeed.
+
+Current purpose:
+- demonstrate Graph request structure
+- test front-end integration
+- prepare for Microsoft 365 sandbox usage

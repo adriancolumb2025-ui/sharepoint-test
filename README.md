@@ -34,3 +34,16 @@ Current purpose:
 - demonstrate Graph request structure
 - test front-end integration
 - prepare for Microsoft 365 sandbox usage
+
+## Microsoft Graph / Entra test progress
+
+Current setup completed:
+- Microsoft Entra tenant created
+- two app registrations created
+- Graph API delegated permissions configured
+- admin consent granted
+- client secrets created
+- Graph Explorer authenticated against tenant
+- successful Microsoft Graph read queries executed
+- test security group created via Microsoft Graph
+- test security group updated via Microsoft Graph

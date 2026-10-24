@@ -1,0 +1,25 @@
+name: Graph read-only demo checks
+
+on:
+  pull_request:
+  push:
+    branches:
+      - feat/**
+
+permissions:
+  contents: read
+
+jobs:
+  unit-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install pinned direct dependencies
+        run: npm install --no-audit --no-fund
+      - name: Run offline synthetic unit tests
+        run: npm run test
+      - name: Build both app and dedicated redirect bridge
+        run: npm run build
